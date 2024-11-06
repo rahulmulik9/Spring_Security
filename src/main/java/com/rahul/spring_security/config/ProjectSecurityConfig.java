@@ -29,6 +29,7 @@ import javax.sql.DataSource;
                  .httpBasic(Customizer.withDefaults());
          return http.build();
      }
+     //password encoder
 
      @Bean
      public PasswordEncoder passwordEncoder() {
